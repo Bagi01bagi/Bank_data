@@ -165,9 +165,10 @@ group by housing,loan;
 select distinct  (marital), count(*) as count
 from bank_customers bc
 group by marital  ;
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+
+
 
 На основе полученных таблиц в sql запросе я решила через power bi создать визуализацию  и для этого я подключилась на postgres в power bi и внизу написала sql запрос  и получала данные и их визуализировала
 
 
-
+![Image alt](https://github.com/Bagi01bagi/Bank_data/blob/main/data_bank.png)
